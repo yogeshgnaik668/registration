@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        h1{text-align: center;}
+        label {
+                display: inline-block;
+                width: 100px;
+                text-align: left;
+              }
+        input{
+            margin-left: 50px;
+        }
+        textarea{
+            margin-left: 50px;
+        }
+        td{
+            text-align: center;
+        }
+         /* #m{ 
+            margin-left: 10px; 
+         }         */
+           #n{ 
+             margin-left: 50px; 
+         } 
+        
+    </style>
+    
+    
+</head>
+<body style="background-color:rgb(13, 20, 137); color: antiquewhite";>
+<h1 >STUDENT REGISTRATION FORM</h1>
+<hr>
+<form >
+        <label for="a">First Name: </label>
+        <input type="text" placeholder="Enter the first name"> (Max 30 char a-z and A-Z)</input><br><br>
+        <label for="a">Last Name: </label>
+        <input type="text" placeholder="Enter the last name"> (Max 30 char a-z and A-Z)</input><br><br>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter email"><br><br>
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" placeholder="Enter number"> (10 digits only)</input><br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="a">Male <input type="radio" name="a">Female <input type="radio" name="a">Preffer not say <br><br>
+        <label for="address">Address:</label>
+        <textarea ></textarea><br><br>
+        <label for="city">City:</label>
+        <input type="text" placeholder="Enter city"> (Max 30 char a-z and A-Z)</input><br><br>
+        <label for="pin">PIN:</label>
+        <input type="pin" placeholder="Enter PIN"> (6 digits only)</input><br><br>
+        <label for="state">State:</label>
+        <input type="state" placeholder="Enter State"> (Max 30 char a-z and A-Z)</input><br><br>
+        <label for="Country">Country:</label>
+        <input type="country" placeholder="Enter country"> (Max 30 char a-z and A-Z)</input><br><br>
+        <label for="Hobbies">Hobbies:</label>
+        <input type="checkbox">Drawing <input type="checkbox">Singing <input type="checkbox">Reading <input type="checkbox">Sketching <br><br>
+        <hr>
+        <h2><u>Qualification</u></h2>
+        <table cellSpacing="1px" cellPadding="10px">
+            <tr>
+                <td>Sl Number</td>
+                <td>Examination</td>
+                <td>Board</td>
+                <td>Percentage</td>
+                <td>YOP</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>SSLC</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PUC</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Degree</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <hr>
+        <label for="course">Applied Courses</label>
+        <input type="radio" name="b">BCA<input type="radio" name="b">BSc<input type="radio" name="b">BCom<br><br>
+        <label for="others">Others</label>
+        <input type="text"><br><br>
+        <hr>
+        <button id="m">SUBMIT</button><button id="n">RESET</button>
+
+        
+
+</form>
+</body>
+</html>
